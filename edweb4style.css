@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #003366;
+  overflow-x: hidden;
+  background-image:url(/images/web4.jpg) ;
+  background-size: cover;
+}
+
+/* Logo Section */
+.logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+/* Container */
+.container {
+  width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+  position: relative;
+  z-index: 2;
+}
+
+/* Section Titles */
+.section {
+  margin-bottom: 60px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #0059b3;
+}
+
+/* Box Layout */
+.box {
+  height: 580px;
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0, 64, 128, 0.1);
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+  width: 70%;
+  height: 100%;
+  padding: 30px;
+  background-color: #e6f2ff;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.right {
+  float: left;
+  width: 30%;
+  height: 100%;
+  padding: 30px;
+  background-color: #d6eaff;
+}
+.right1{
+ float: left;
+  width: 30%;
+  height: 100%;
+  padding: 30px;
+  background-color: #d6eaff; 
+}
+.right1 img{
+  width:245px;
+  height: auto;
+  padding: 15px;
+}
+.right3{
+ float: left;
+  width: 30%;
+  height: 100%;
+  padding: 30px;
+  background-color: #d6eaff;
+}
+.right3 img{
+  width:245px;
+  height: 170px;
+  padding: 15px;
+}
+.right4{
+ float: left;
+  width: 30%;
+  height: 100%;
+  padding: 30px;
+  background-color: #d6eaff;
+}
+.right4 img{
+  width:245px;
+  height: 170px;
+  padding: 15px;
+}
+.right5{
+ float: left;
+  width: 30%;
+  height: 100%;
+  padding: 30px;
+  background-color: #d6eaff;
+}
+.right5 img{
+  width:245px;
+  height: 170px;
+  padding: 15px;
+}
+
+.right img {
+  width: 240px;
+  height: 250px;
+  padding: 10px;
+}
+p{
+  text-indent: 15px;
+}
+
+/* Pre Styling */
+pre {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  font-family: 'Courier New', monospace;
+  border-left: 5px solid #66b3ff;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Clear floats */
+.box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
